@@ -50,7 +50,7 @@
                 <snapshotRepository>
                     <id>snapshot</id>
                     <name>maven-snapshots</name>
-                    <url>artifactregistry://asia-southeast1-maven.pkg.dev/bdo-ops/maven-snapshots</url>
+                    <url>http://172.26.47.145:8087/repository/maven-snapshots/</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
@@ -58,7 +58,7 @@
                 <repository>
                     <id>release</id>
                     <name>maven-releases</name>
-                    <url>artifactregistry://asia-southeast1-maven.pkg.dev/bdo-ops/maven-releases</url>
+                    <url>http://172.26.47.145:8087/repository/maven-releases/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
